@@ -1,25 +1,35 @@
 const InputBox = () => {
   return (
-    <div>
+    <div className="space-y-6">
       <div className="text-center">
-        <h2>Circle</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <h2 className="text-2xl font-bold mb-2">Circle Position</h2>
+        <p>Adjust the position of the selected circle</p>
       </div>
 
-      <div>
-        <div>
-          <label>X Position</label>
-          <input type="number" placeholder="X" />
+      <div className="grid grid-cols-2 gap-4">
+        <div className="space-y-2">
+          <label className="text-sm font-medium">X Position</label>
+          <input
+            className="w-full px-4 py-3 border rounded-xl"
+            placeholder="X coordinate"
+            type="number"
+          />
         </div>
 
-        <div>
-          <label>Y Position</label>
-          <input type="number" placeholder="Y" />
+        <div className="space-y-2">
+          <label htmlFor="y-position" className="text-sm font-medium">
+            Y Position
+          </label>
+          <input
+            type="number"
+            className="w-full px-4 py-3 border rounded-xl"
+            placeholder="Y coordinate"
+          />
         </div>
       </div>
 
-      <button>
-        <span>
+      <button className="w-full bg-secondary font-semibold py-3 px-6 rounded-xl shadow-md">
+        <span className="flex items-center justify-center gap-2">
           <svg
             className="w-5 h-5"
             fill="none"
@@ -37,7 +47,9 @@ const InputBox = () => {
         </span>
       </button>
 
-      <p>Maximum circles reached (X?)</p>
+      <p className="text-sm text-center">
+        Maximum number of circles reached (5)
+      </p>
     </div>
   );
 };

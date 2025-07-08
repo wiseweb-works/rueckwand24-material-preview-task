@@ -1,6 +1,6 @@
 const SubmitButton = () => {
   return (
-    <button className="py-3 text-lg rounded-xl bg-blue-600 text-white">
+    <button className="mt-6 w-full rounded-xl bg-blue-600 text-white text-lg py-3 font-semibold">
       Submit
     </button>
   );
