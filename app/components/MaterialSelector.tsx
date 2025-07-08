@@ -1,5 +1,46 @@
+import { MATERIAL_OPTIONS as materials } from "../data/materials";
+
 const MaterialSelector = () => {
-  return <div>MaterialSelector</div>;
+  return (
+    <div>
+      <div>
+        <h2>Material Selection</h2>
+        <p>Choose your material</p>
+      </div>
+
+      <div>
+        {materials.map((material) => {
+          <button key={material.id}>
+            <div>
+              <img src={material.image} alt="" />
+            </div>
+            <div>
+              <div>
+                <span className="font-semibold text-lg">{material.name}</span>
+                {material.badge && <span>{material.badge}</span>}
+              </div>
+
+              <div>{material.description && <p>{material.description}</p>}</div>
+            </div>
+
+            <div>
+              <svg
+                className="w-4 h-4 text-primary"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+          </button>;
+        })}
+      </div>
+    </div>
+  );
 };
 
 export default MaterialSelector;
