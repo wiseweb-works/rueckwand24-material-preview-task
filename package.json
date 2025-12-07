@@ -11,24 +11,24 @@
         "write": "prettier . --write"
     },
     "dependencies": {
-        "next": "15.5.6",
-        "react": "^19.2.0",
-        "react-dom": "^19.2.0",
-        "zustand": "^5.0.8"
+        "next": "16.0.7",
+        "react": "^19.2.1",
+        "react-dom": "^19.2.1",
+        "zustand": "^5.0.9"
     },
     "devDependencies": {
         "@axe-core/react": "^4.11.0",
         "@eslint/eslintrc": "^3.3.3",
-        "@next/eslint-plugin-next": "^15.5.6",
+        "@next/eslint-plugin-next": "^16.0.7",
         "@tailwindcss/postcss": "^4.1.17",
         "@types/node": "^24.10.1",
         "@types/react": "^19.2.7",
         "@types/react-dom": "^19.2.3",
         "eslint": "^9.39.1",
-        "eslint-config-next": "15.5.6",
+        "eslint-config-next": "16.0.7",
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-jsx-a11y": "^6.10.2",
-        "prettier": "^3.7.2",
+        "prettier": "^3.7.4",
         "tailwindcss": "^4.1.17",
         "typescript": "^5.9.3"
     }
