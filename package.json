@@ -11,25 +11,25 @@
         "write": "prettier . --write"
     },
     "dependencies": {
-        "next": "16.2.1",
-        "react": "^19.2.4",
-        "react-dom": "^19.2.4",
+        "next": "16.2.4",
+        "react": "^19.2.5",
+        "react-dom": "^19.2.5",
         "zustand": "^5.0.12"
     },
     "devDependencies": {
-        "@axe-core/react": "^4.11.1",
+        "@axe-core/react": "^4.11.2",
         "@eslint/eslintrc": "^3.3.5",
-        "@next/eslint-plugin-next": "^16.2.1",
+        "@next/eslint-plugin-next": "^16.2.4",
         "@tailwindcss/postcss": "^4.2.2",
-        "@types/node": "^25.5.0",
+        "@types/node": "^25.6.0",
         "@types/react": "^19.2.14",
         "@types/react-dom": "^19.2.3",
         "eslint": "^9.39.4",
-        "eslint-config-next": "16.2.1",
+        "eslint-config-next": "16.2.4",
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-jsx-a11y": "^6.10.2",
-        "prettier": "^3.8.1",
+        "prettier": "^3.8.3",
         "tailwindcss": "^4.2.2",
-        "typescript": "^5.9.3"
+        "typescript": "^6.0.3"
     }
 }
